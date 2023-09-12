@@ -7,8 +7,8 @@ output: html_document
 
 #Input data "New Delhi Air Quality"
 ```{r}
-setwd("E:/kuliah/Semester 5/Metode Peramalan Deret Waktu/")
-NewDelhi_AQI <- read.csv("NewDelhi_Air_Quality_data.csv", sep = ",")
+library(rio)
+NewDelhi_AQI <- import('https://raw.githubusercontent.com/dhiyakhalishah/PraktikumMPDW/main/P2/NewDelhi_Air_quality_data.csv')
 NewDelhi_AQI
 ```
 
