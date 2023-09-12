@@ -8,7 +8,7 @@ output: html_document
 #Input data "New Delhi Air Quality"
 ```{r}
 library(rio)
-NewDelhi_AQI <- import('https://raw.githubusercontent.com/dhiyakhalishah/PraktikumMPDW/main/P2/NewDelhi_Air_quality_data.csv')
+NewDelhi_AQI <- import('https://raw.githubusercontent.com/dhiyakhalishah/PraktikumMPDW/main/Pertemuan%202/NewDelhi_Air_quality_data.csv')
 NewDelhi_AQI
 ```
 
