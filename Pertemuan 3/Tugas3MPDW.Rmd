@@ -16,10 +16,9 @@ library(car)
 
 #Impor Data
 ```{r}
-data <- read.csv("E:/kuliah/Semester 5/Metode Peramalan Deret Waktu/DataAsli_NewDelhi_Air_quality.csv", sep = ",")
+library(rio)
+data <- import('https://raw.githubusercontent.com/dhiyakhalishah/PraktikumMPDW/main/Pertemuan%203/DataAsli_NewDelhi_Air_quality.csv')
 str(data)
-data$Yt <- as.numeric(data$Yt)
-data$Xt <- as.numeric(data$Xt)
 data
 ```
 
